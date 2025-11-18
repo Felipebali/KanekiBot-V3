@@ -17,7 +17,7 @@ global.owner = [
   ['119069730668723', 'FeliLID', true], // tu LID
   ['262573496758272', 'GerLID', true], 
   ['170777177522428', 'BotLID', true], 
-  ['109848586911986', 'benjaLID', true]"
+  ['109848586911986', 'benjaLID', true]
 ]
 
 global.suittag = ["51919199620"] 
