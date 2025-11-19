@@ -33,7 +33,7 @@ return
 }
 m.exp = 0
 try {
-const user = global.db.data.users[m.sender]
+const user = in global.db.data.users[m.sender]
 if (typeof user !== "object") global.db.data.users[m.sender] = {}
 if (user) {
 if (!("name" in user)) user.name = m.name
