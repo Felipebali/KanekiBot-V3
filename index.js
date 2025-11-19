@@ -263,9 +263,6 @@ if (readBotPath.includes(creds)) {
 kanekiAIJadiBot({pathkanekiAIJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
 }}}}
 
-import { join } from 'path'
-import { readdirSync } from 'fs'
-
 const pluginFolder = join(__dirname, './plugins') // sin global.__dirname
 const pluginFilter = (filename) => /\.js$/.test(filename)
 global.plugins = {}
